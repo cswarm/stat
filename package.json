@@ -1,0 +1,28 @@
+{
+  "name": "swarm-stat",
+  "version": "1.0.0",
+  "description": "Statistics for Swarm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredallard/swarm-stat.git"
+  },
+  "keywords": [
+    "swarm",
+    "computercraft"
+  ],
+  "author": "Jared Allard <jaredallard@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredallard/swarm-stat/issues"
+  },
+  "homepage": "https://github.com/jaredallard/swarm-stat#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "kue": "^0.10.5",
+    "kue-ui": "^0.1.0"
+  }
+}
